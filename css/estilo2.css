@@ -1,0 +1,47 @@
+  .column_one{
+      background: #f80302;
+      text-align: center;
+      border-bottom-left-radius: 10px;
+      border: 3px solid #aa0f0f;
+      border-bottom-right-radius: 10px;
+    }
+    .row{
+      display: flex;
+      
+    }
+    .row4{
+      padding-top: 1%;
+    }
+    .row2 img, .row3 img {
+      padding-top: 10%;
+      max-width: 70%;
+      max-height: 100%;
+    }
+    .ganador{
+      color: white;
+    }
+   @media screen and (max-width: 768px){
+     .row2 img, .row3 img {
+    max-width: 85%;
+    }
+      div.row.row1 h1{
+          font-size: 30px;
+     }
+     div.col-3 h4{
+      margin-top: -55px;
+     }
+  }
+    @media screen and (max-width: 322px){
+     div.row.row1 h1{
+          font-size: 25px;
+     }
+     div.row.row3 button{
+          width: 70px;
+    height: 70px;
+    font-size: 12px;
+    text-align: center;
+     }
+     .row2 img, .row3 img {
+    max-width: 105%;
+    }
+   } 

@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<link rel="stylesheet" href="./css/estilo1.css">
+    
+  </head>
+ 
+  <body>
+      <!-- <bgsound src="./audios/boton.mp3" loop=infinite> -->
+        <embed src="./audios/music.mp3" autostart="true" loop="true" volume="0" width="0" height="0">
+      <div class="container primer_conten">
+          <div class="row seccion_principal align-content-center">
+              <div class="col">
+               <h2>Game 31</h2>
+              </div>
+             <div class="col">
+                <img src="./imagenes/logo.jpg" alt="Logo Game 31 " class="Logo">
+
+             </div>
+            <br>
+            <br>
+                  <div class="col-md-6 offset-md-3   ">
+                    <h3>Nombre del Jugador:<h4 id="Name" value=""></h4></h3>
+              <div class="nombre">
+                  <input type="text" class=" Name form-control" placeholder="Escribe tu nombre" aria-label="Username" aria-describedby="basic-addon1" id="valor">                 
+                  <button class="btn obtener" type="submit" onclick="enviar()" onmousedown="sodido.play()" >Enviar</button>
+              </div>
+                   
+                  </div>
+          <br>
+            <div class="col">
+              <h4 id="iniciar"></h4>
+             <a href="./vistas/index1.html" onmousedown="start.play()"> <i class="icon-play3 play"></i></a>
+             <br>
+             <br>
+             <!-- Button trigger modal -->
+<button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModalLong">
+ Modalidad del juego
+</button>
+
+<!-- Modal -->
+<div style="color: black;" class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle" >Juego 31</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" >
+       <p style="display: inline;" >
+         Bienvenido/@  <p id="nombre" value="" ></p></p>
+         <p style="text-align: left;">
+         Este juego consiste  de que obtengas la mayor cantidad cercana a 31 o igual 31 con los valores de las cartas que se te mostraran , en el primer turno   se te darán 3 cartas y tu decidir&#225;s si  deseas quedar con el valor de estas, si as&#237; fuere el juego terminara y mostrara el ganador ya que este caso estar&#225;s jugando contra el banquero , si deseas seguir jugando podr&#225;s seguir pidiendo cartas mientras la suma de estas sea menor a 31 , si en alg&#250;n momento alguna de tus cartas es AS decidir&#225;s que valor asignarle 1 o 11 seg&#250;n te convenga.
+          <br>
+          <br>
+         ¡¡ Buena suerte!!
+
+         </p>
+
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Salir</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+      </div>
+     
+
+      <script src="./js/index.js"></script>
+ 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  </body>
+</html>

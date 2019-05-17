@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?eb97nv');
+    src:  url('../fonts/icomoon.eot?eb97nv#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?eb97nv') format('truetype'),
+      url('../fonts/icomoon.woff?eb97nv') format('woff'),
+      url('../fonts/icomoon.svg?eb97nv#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-menu:before {
+    content: "\e9bd";
+  }
+  .icon-play3:before {
+    content: "\ea1c";
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  a:hover {
+      color: #12a32e;
+      text-decoration: none;
+  }
+  
+    body {
+        background: #12a32e;
+      color: white;
+      margin: 0;
+      
+    }
+    .primer_conten{
+        
+      text-align: center;
+      background:  rgba(1, 21, 5, 0.5);
+      height: 100vh;
+    }
+    .Logo {
+       max-width: 40%;
+    }
+    .seccion_principal {
+    
+      display: block;
+    }
+    .obtener{
+      background: #044711;
+      border-color: #044711;
+      color: white;
+    }
+    .nombre{
+      display: flex;
+    }
+    .play {
+      border: 2px solid white;
+      font-size: 70px;
+      border-radius: 10px;
+      text-align: center
+    }
+    .play:hover {
+     border-color: #12a32e;
+    }
+    /* ------------------------------------------------- */
+    /* .column_one{
+      background: #f80302;
+      text-align: center;
+      border-bottom-left-radius: 10px;
+      border: 3px solid #aa0f0f;
+      border-bottom-right-radius: 10px;
+    }
+    .row{
+      display: flex;
+      
+    }
+    .row4{
+      padding-top: 1%;
+    }
+    .row2 img, .row3 img {
+      padding-top: 10%;
+      max-width: 50%;
+      max-height: 100%;
+    } */
